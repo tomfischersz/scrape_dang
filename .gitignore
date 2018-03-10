@@ -9,7 +9,7 @@
 *.html
 
 # cache
-scrape_dang_git_cache/*
+dang_eda_cache/*
 
 # Data Folder (often too big for Github)
 data/*

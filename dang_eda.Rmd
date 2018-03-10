@@ -1,0 +1,24 @@
+---
+title: "Dangdang EDA"
+author: "Thomas Fischer"
+date: "March 10, 2018"
+output: 
+  html_document:
+    keep_md: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+options(scipen=999) # weired effect with numbers in kind of scientific notations
+```
+## Check how Github handles chinese characters
+So we include a typical greeting like and save it with encoding 'UTF-8':
+你好
+
+## Loading and preprocessing the data
+**1. Load the data
+Data is not added to github
+```{r load_data, cache=TRUE}
+dir('../data')
+
+```
