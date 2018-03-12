@@ -1,0 +1,35 @@
+---
+title: "Dangdang EDA"
+author: "Thomas Fischer"
+date: "March 10, 2018"
+output:
+  html_document:
+    keep_md: yes
+---
+
+## Failed attempt, knit not working
+
+```{r setup, include=FALSE}
+# options(Encoding="CP936")
+# options(Encoding="UTF-8")
+knitr::opts_chunk$set(echo = TRUE)
+options(scipen=999) # weired effect with numbers in kind of scientific notations
+```
+# Check how Github handles chinese characters
+So we include a typical greeting like (saved this file encoding 'UTF-8'):
+你好
+
+# Loading and preprocessing the data
+**1. Load the data**  
+Can't display chinese characters in both .md and .html files, knit() not working
+#```{r load_data, cache=TRUE}
+```{r load_data}
+Sys.setlocale("LC_CTYPE", locale="Chinese")
+# Sys.setlocale("LC_CTYPE", locale="en_US.UTF-8")
+data_dir <- '../data'
+
+dang <- readRDS('../data/dang_3cat_pdate_20180310_1433.RData')
+# require(data.table)
+# dang <- fread('../data/dang_3cat_pdate_20180310_1433.csv', encoding = 'UTF-8')
+str(dang)
+```
