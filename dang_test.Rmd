@@ -32,4 +32,5 @@ dang <- readRDS('../data/dang_3cat_pdate_20180310_1433.RData')
 # require(data.table)
 # dang <- fread('../data/dang_3cat_pdate_20180310_1433.csv', encoding = 'UTF-8')
 str(dang)
+table(dang$categories)
 ```
