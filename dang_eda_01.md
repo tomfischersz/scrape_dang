@@ -12,13 +12,13 @@ output:
 # Data 
 
 The data is downloaded from [dangdang.com](http://www.dangdang.com)  
-and sorted by: ???????????? (publishing date)  
+and sorted by: 出版时间 (publishing date)  
 **The filters are:**  
-age: 3-6???  
+age: 3-6岁  
 and three different categories: 
-- ???????????? (activity and games)
-- ???????????? (children english)
-- ???????????? (preparation for school)  
+- 益智游戏 (activity and games)
+- 少儿英语 (children english)
+- 入学准备 (preparation for school)  
 
 Example website: [activity and games](http://category.dangdang.com/cp01.41.02.13.00.00-srsort_pubdate_desc.html)
 
