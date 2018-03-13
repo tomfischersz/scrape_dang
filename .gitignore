@@ -18,3 +18,5 @@ data/*
 
 # scripts for playful exploratory data analysis
 eda??.R
+
+dang_test_files/
